@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CseComponent } from "./cse/cse.component";
-import { OgComponent } from "./og/og.component";
-import { SalaarComponent } from "./salaar/salaar.component";
+import { ImagesComponent } from "./images/images.component";
+import { TextComponent } from "./text/text.component";
 
 @Component({
   selector: 'app-root',
-  imports: [OgComponent, SalaarComponent],
+  imports: [ImagesComponent, TextComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'hello';
+  title = 'kannalab';
 }

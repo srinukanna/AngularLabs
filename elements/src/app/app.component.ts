@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CseComponent } from "./cse/cse.component";
-import { OgComponent } from "./og/og.component";
-import { SalaarComponent } from "./salaar/salaar.component";
+import { TemplateComponent } from "./template/template.component";
 
 @Component({
   selector: 'app-root',
-  imports: [OgComponent, SalaarComponent],
+  imports: [TemplateComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'hello';
+  title = 'elements';
 }
