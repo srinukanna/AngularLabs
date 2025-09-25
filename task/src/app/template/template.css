@@ -1,0 +1,6 @@
+.container{
+ display:flex;
+}
+button{
+  margin:20px auto;
+}
