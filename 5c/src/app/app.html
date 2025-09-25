@@ -1,0 +1,5 @@
+<div>
+  <h1>Nested components demo</h1>
+  <button (click)="toggle()">{{ showcourses ?'hide':'view'}}</button>
+</div>
+<app-classlistcomponent *ngIf="showcourses"></app-classlistcomponent>
