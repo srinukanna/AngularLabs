@@ -1,0 +1,15 @@
+<h1>Course Registration form</h1>
+
+<form #regForm="ngForm" ngSubmit="onsubmit()" >
+  <label for="">Name:</label>
+  <input type="text" name="name" ngModel="student.name" required>
+
+  <label for="">Email:</label>
+  <input type="email" name="mail" ngModel="student.mail" required>
+
+  <label for="">course:</label>
+  <select name="course" ngModel="student.course" required>
+    <option value="">--Select Course--</option>
+    <option value="">Angular</option>
+  </select>
+</form>
